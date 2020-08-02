@@ -1,9 +1,3 @@
-# About
-This crate provides functionality for several common voting methods.
-
-# Example Usage
-Using this crate is easy! Simply add this crate as a dependency and then `use` it:
-``` 
 use vote::{audit, Method};
 
 fn main() {
@@ -19,4 +13,3 @@ fn main() {
     // Get the result
     println!("{:?}", x.get_ranking())
 }
-```

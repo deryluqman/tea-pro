@@ -1,6 +1,6 @@
 [package]
 name = "vote"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Chris McComb <ccmcc2012@gmail.com>"]
 description = "Common voting methods"
 edition = "2018"
@@ -9,7 +9,7 @@ repository = "https://github.com/cmccomb/vote"
 homepage = "https://github.com/cmccomb/vote"
 documentation = "https://docs.rs/vote"
 license = "MIT OR Apache-2.0"
-keywords = ["optimization", "benchmark", "functions"]
+keywords = ["voting", "social choice"]
 categories = ["algorithms", "mathematics", "science"]
 
 [dependencies]
