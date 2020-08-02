@@ -9,7 +9,7 @@ repository = "https://github.com/cmccomb/vote"
 homepage = "https://github.com/cmccomb/vote"
 documentation = "https://docs.rs/vote"
 license = "MIT OR Apache-2.0"
-keywords = ["voting", "social choice"]
+keywords = ["voting", "preference", "aggregation"]
 categories = ["algorithms", "mathematics", "science"]
 
 [dependencies]
