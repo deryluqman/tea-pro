@@ -13,4 +13,4 @@ keywords = ["optimization", "benchmark", "functions"]
 categories = ["algorithms", "mathematics", "science"]
 
 [dependencies]
-rand="*"
+rand="0.7.3"
