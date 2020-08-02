@@ -2,6 +2,7 @@
 name = "vote"
 version = "0.1.0"
 authors = ["Chris McComb <ccmcc2012@gmail.com>"]
+description = "Common voting methods"
 edition = "2018"
 readme = "README.md"
 repository = "https://github.com/cmccomb/vote"
