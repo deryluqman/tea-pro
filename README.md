@@ -4,19 +4,16 @@ This crate provides functionality for several common voting methods.
 # Example Usage
 Using this crate is easy! Simply add this crate as a dependency and then `use` it:
 ``` 
-use vote::{audit, Method};
+use vote::{random_dictator, Preference};
 
 fn main() {
     // Make a preference profile
-    let v = vec![vec![0, 1, 2, 3]; 4];
-
-    // Make sure everything is hunkydory
-    audit(&v);
+    let v = Preference(vec![vec![0, 1, 2, 3]; 4]);
 
     // Make a voting method
-    let x = vote::RandomDictator(v);
+    let x = random_dictator(v);
 
     // Get the result
-    println!("{:?}", x.get_ranking())
+    println!("{:?}", x.0)
 }
 ```
