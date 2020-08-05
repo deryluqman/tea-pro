@@ -1,3 +1,5 @@
+![](https://travis-ci.org/cmccomb/vote.svg?branch=master)
+
 # About
 This crate provides functionality for several common voting methods.
 
