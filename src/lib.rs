@@ -215,10 +215,10 @@ mod tests {
     fn borda_functionality() {
         let v = vec![
             vec![3, 1, 2, 0],
-            vec![0, 1, 3, 2],
+            vec![0, 1, 2, 3],
             vec![0, 1, 2, 3],
             vec![3, 0, 1, 2]];
         let p = Preference(v);
-        assert_eq!(vec![0, 3, 1, 2], borda(p).0);
+        assert_eq!(vec![0, 1, 3, 2], borda(p).0);
     }
 }
