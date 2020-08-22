@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/cmccomb/vote.svg?branch=master)](https://travis-ci.org/cmccomb/vote)
+[![Crates.io](https://img.shields.io/crates/v/vote.svg)](https://crates.io/crates/vote)
+
 
 # About
 This crate provides functionality for several common ranked choice voting methods.
