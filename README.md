@@ -6,8 +6,8 @@
 This crate provides functionality for several common ranked choice voting methods.
 
 # Example Usage
-Using this crate is easy! Simply add this crate as a dependency and then `use` it:
-``` 
+Using this crate is easy!
+```rust
 use vote::{random_dictator, Preference};
 
 fn main() {
